@@ -1,0 +1,55 @@
+/* STEPS */
+
+.steps {
+    padding: 100px 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../../img/backgrounds/bg2.jpeg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.steps__h2 {
+    letter-spacing: 5px;
+}
+.steps__p {
+    width: 60%;
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 34px;
+    padding-bottom: 30px;
+}
+
+.steps__p {
+    padding-bottom: 30px;
+}
+
+.steps__span {
+    width: 10px;
+    height: 10px;
+    border: solid 2px $mainRed;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* media queries for steps */
+
+
+@media(max-width: 768px) {
+    .steps__p {
+        width: 60%;
+        font-size: 0.8em;
+        font-weight: 100;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .steps__p {
+        width: 100%;
+        font-size: 0.8em;
+        font-weight: 100;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+}

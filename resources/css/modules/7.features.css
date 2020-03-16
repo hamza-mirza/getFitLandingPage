@@ -1,0 +1,42 @@
+/* FEATURES */
+
+.features {
+    padding: 120px 0 50px 0;
+}
+
+.features__box {
+    padding-bottom: 30px !important;
+}
+
+.features__icon {
+    color: $mainRed;
+}
+
+.features__p {
+    padding: 10px 0 20px 0;
+    color: $paraGray;
+}
+
+.features__btn {
+    padding: 8px 25px !important;
+    font-size: 0.7em !important;
+}
+
+.box1 {
+    border-right: solid 2px #f0f0f0;
+}
+
+.box2 {
+    border-right: solid 2px #f0f0f0;
+}
+
+/* media queries for features */
+
+@media(max-width: 768px) {
+    .features__h3 {
+        font-size: 0.9em;
+    }
+    .features__p {
+        font-size: 0.8em;
+    }
+}

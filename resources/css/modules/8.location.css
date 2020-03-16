@@ -1,0 +1,51 @@
+/* LOCATION */
+
+.location {
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url("../../img/backgrounds/bg3.jpeg") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location__h2 {
+    padding-bottom: 50px;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.location__img {
+    width: 300px;
+    height: 150px;
+
+}
+
+.location__h3, .location__p {
+    text-align: left;
+}
+
+.location__h3 {
+    padding-bottom: 10px;
+}
+
+.location__icon {
+    color: #e74c3c;
+    padding-right: 10px;
+}
+
+.location__box {
+    padding-bottom: 30px;
+}
+
+.location__a:link,
+.location__a:visited {
+    color: #e74c3c;
+    transition: all 0.5s;
+}
+
+.location__a:hover,
+.location__a:active {
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "fit-first",
+  "version": "1.0.0",
+  "description": "A website theme for fitness companies",
+  "author": "Hamza Mirza",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-import": "^9.0.0",
+    "postcss-simple-vars": "^3.0.0"
+  }
+}

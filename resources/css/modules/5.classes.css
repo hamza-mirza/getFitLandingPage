@@ -1,0 +1,112 @@
+/* CLASSES */
+
+.class_block {
+    color: #fff !important;
+    box-shadow: -1px 20px 33px -9px rgba(0,0,0,0.75);
+    padding: 160px 0 20px 20px;
+    transition: all 0.5s;
+}
+
+.class_block:hover {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+}
+
+.classes__h3 {
+    color: $mainRed;
+}
+
+.class__block-p {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.class_block1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/workouts/workout.jpg") center center no-repeat;
+    background-size: cover;
+
+}
+
+.class_block2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/workouts/workout2.jpeg") center center no-repeat;
+    background-size: cover;
+}
+
+.class_block3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/workouts/workout3.jpeg") center center no-repeat;
+    background-size: cover;
+}
+
+.classes__btn {
+    padding: 7px 20px !important;
+    font-size: 0.6em !important;
+}
+
+.classes__bottom--content {
+    padding-top: 60px;
+}
+
+.classes__bottom--content__subtitle {
+    color: $paraGray;
+    font-size: 1.3em;
+    padding-bottom: 30px;
+}
+
+.classes__bottom--content__h3 a:link,
+.classes__bottom--content__h3 a:visited {
+    color: $mainRed;
+    transition: all 0.5s;
+}
+
+.classes__bottom--content__h3 a:hover,
+.classes__bottom--content__h3 a:active {
+    color: $darkRed;
+}
+
+.classes__bottom--content__p {
+    color: #fff;
+    margin: 0;
+}
+
+.classes__bottom--content__small {
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+}
+
+.blog_container {
+    padding: 30px 0 30px 20px;
+    margin-bottom: 30px;
+    transition: all 1s;
+}
+
+.blog_container:hover {
+    opacity: 0.9;
+}
+
+.blog_container1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/blog/body.jpeg") center center no-repeat;
+    background-size: cover;
+
+}
+.blog_container2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/blog/carb.jpeg") center center no-repeat;
+    background-size: cover;
+}
+
+.blog_container3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/blog/training.jpeg") center center no-repeat;
+    background-size: cover;
+}
+
+.blog_container4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/blog/healthy.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width:767px) {
+    .class__container {
+        padding-bottom: 30px;
+    }
+}
